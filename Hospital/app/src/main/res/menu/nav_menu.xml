@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="信息">
+            <menu>
+                <item
+                    android:title="治疗信息" />
+                <item
+                    android:title="专家团队"/>
+            </menu>
+        </item>
+        <item android:title="服务">
+            <menu>
+                <item
+                    android:title="服务预约"
+                    android:id="@+id/ser_res"/>
+                <item
+                    android:title="中医四诊"
+                    android:id="@+id/four_diag"/>
+                <item
+                    android:title="健康检测"
+                    android:id="@+id/health_monitor"/>
+                <item
+                    android:title="健康计划"
+                    android:id="@+id/ser_monitor"/>
+                <item
+                    android:title="随访服务"
+                    android:id="@+id/ser_inter"/>
+            </menu>
+        </item>
+        <item android:title="档案">
+            <menu>
+                <item
+                    android:title="健康状况"
+                    android:id="@+id/health_situ"/>
+                <item
+                    android:title="用药状况"
+                    android:id="@+id/med_situ"/>
+            </menu>
+        </item>
+        <item android:title="我的">
+            <menu>
+                <item
+                    android:title="版本更新"
+                    android:id="@+id/ver_update"/>
+                <item
+                    android:title="修改密码"
+                    android:id="@+id/edit_pass"/>
+                <item
+                    android:title="登出系统"
+                    android:id="@+id/log_out"/>
+            </menu>
+        </item>
+    </group>
+
+
+</menu>
